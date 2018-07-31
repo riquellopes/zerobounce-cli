@@ -11,7 +11,9 @@ var getcredits = &cobra.Command{
 	Short: "Get the number of credits available in your ZeroBounce account",
 	Long:  `Get the number of credits available in your ZeroBounce account`,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("bye called")
+		credit, _ := Zero.GetCredits()
+
+		fmt.Println(credit)
 	},
 }
 
