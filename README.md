@@ -1,7 +1,7 @@
 Zerobounce Cli
 ==============
 
-The [zerobounce](https://www.zerobounce.net/) [cli](https://en.wikipedia.org/wiki/Command-line_interface) is a new option to check up information about the email by line command. After install the lib create your account at [here](https://www.zerobounce.net/), get your token application and define the environment. 
+The [zerobounce](https://www.zerobounce.net/) [cli](https://en.wikipedia.org/wiki/Command-line_interface) is a new option to check up information about the email by line command. After install the lib create an account [here](https://www.zerobounce.net/), get your token application and define the environment. 
 
 #### Export API_KEY_ZERO:
 ```sh
